@@ -9,7 +9,11 @@ const TimelineLastItem: FunctionComponent<Props> = (props) => {
         <li className="timeline-inverted">
             <div className="timeline-image">
                 <h4>
-                    {props.textArray.map(text => <> {text}<br /></>)}
+                    {props.textArray.map((text, i) =>
+                        <div key={i}>
+                            {text}
+                            <br />
+                        </div>)}
                 </h4>
             </div>
         </li>

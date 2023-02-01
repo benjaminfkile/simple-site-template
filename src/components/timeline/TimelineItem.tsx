@@ -9,7 +9,7 @@ interface TimelineItemProps {
 
 const TimelineItem: FunctionComponent<TimelineItemProps> = (props) => {
     return (
-        <li>
+        <>
             <div className="timeline-image">{props.imgUrl && <img className="rounded-circle img-fluid" src={props.imgUrl}
                 alt="..." />}
             </div>
@@ -22,7 +22,7 @@ const TimelineItem: FunctionComponent<TimelineItemProps> = (props) => {
                     <p className="text-muted">{props.text}</p>
                 </div>
             </div>
-        </li>
+        </>
     )
 }
 

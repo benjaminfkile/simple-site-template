@@ -15,12 +15,14 @@ const Services: FunctionComponent<Props> = (props) => {
                     <h3 className="section-subheading text-muted">{props.servicesHeader}</h3>
                 </div>
                 <div className="row text-center">
-                    {serviceItems.map(item =>
-                        <ServiceItem
-                            icon={item.icon}
-                            title={item.title.toUpperCase()}
-                            text={item.text}
-                        />
+                    {serviceItems.map((item, i) =>
+                        <div className="col-md-4" key={i}>
+                            <ServiceItem
+                                icon={item.icon}
+                                title={item.title.toUpperCase()}
+                                text={item.text}
+                            />
+                        </div>
                     )}
                 </div>
             </div>

@@ -11,14 +11,15 @@ const Timeline: FunctionComponent<Props> = () => {
     return (
         <ul className="timeline">
 
-            {timelineItems.map(item =>
-                <TimelineItem
-                    date={item.date}
-                    title={item.title}
-                    text={item.text}
-                    imgUrl={item.imgUrl}
-                />
-            )}
+            {timelineItems.map((item, i) =>
+                <li key={i}>
+                    <TimelineItem
+                        date={item.date}
+                        title={item.title}
+                        text={item.text}
+                        imgUrl={item.imgUrl}
+                    />
+                </li>)}
             <TimelineLastItem
                 textArray={["Some text", "More text", ":)"]}
             />
