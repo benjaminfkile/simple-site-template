@@ -11,7 +11,7 @@ const serviceItems = [
     },
     {
         icon: "paid",
-        title: "we pay you for your junk car",
+        title: "we pay you for your junk",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
     }
 ]
