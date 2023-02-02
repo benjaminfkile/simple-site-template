@@ -10,7 +10,7 @@ interface TimelineItemProps {
 const TimelineItem: FunctionComponent<TimelineItemProps> = (props) => {
     return (
         <>
-            <div className="timeline-image">{props.imgUrl && <img className="rounded-circle img-fluid" src={props.imgUrl}
+            <div className="timeline-image">{props.imgUrl && <img className="rounded-circle img-fluid" src={`${props.imgUrl}?${Date.now()}`}
                 alt="..." />}
             </div>
             <div className="timeline-panel">
