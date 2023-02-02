@@ -1,17 +1,17 @@
 const serviceItems = [
     {
-        icon: "precision_manufacturing",
-        title: "PRODUCT CONCEPT DEVELOPMENT",
+        icon: "local_shipping",
+        title: "we come to you",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
     },
     {
         icon: "verified",
-        title: "VERIFIED SECURE CMS",
+        title: "fully insured",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
     },
     {
-        icon: "linear_scale",
-        title: "horizontally scalable",
+        icon: "paid",
+        title: "we pay you for your junk car",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
     }
 ]
